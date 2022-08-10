@@ -1,0 +1,120 @@
+body {
+  background-color: #1D1A1B;
+}
+
+.background-image {
+  background-image: url("/Users/usuario/proyecto1/assets/background1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh; /* responsive height */
+}
+
+.container-nav {
+  display: flex;
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-nav .container-nav-header {
+  display: flex;
+  float: right;
+  padding: 1.5rem;
+  height: 10%;
+  background-color: #E5E5E5;
+  width: 20%;
+  margin-left: 5%;
+}
+.container-nav nav li {
+  display: inline;
+  float: right;
+}
+.container-nav nav .colaborar {
+  background-color: #F8C02D;
+  color: #1D1A1B;
+  border-radius: 10%;
+}
+.container-nav nav a {
+  display: flex;
+  padding: 1.5rem;
+  font-size: large;
+  color: #E5E5E5;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+.container-nav nav a:hover {
+  text-decoration: underline #F8C02D;
+  border-radius: 10%;
+}
+
+.container-nosotros {
+  display: flex;
+  width: 100%;
+  height: 45rem;
+  align-items: center;
+  justify-content: space-between 3rem;
+  background-image: linear-gradient(transparent, #1D1A1B);
+}
+.container-nosotros .container-nosotros-1 {
+  width: 10%;
+  height: 30%;
+  margin: 8%;
+  align-self: flex-end;
+  border: 0.1cm solid #F8C02D;
+  display: inline-flexbox;
+}
+.container-nosotros .container-nosotros-1-a {
+  justify-content: last baseline;
+  overflow: hidden;
+  font-family: "Source Sans Pro";
+  color: #F8C02D;
+  text-align: center;
+  bottom: 0;
+}
+.container-nosotros .container-nosotros-2-a {
+  font-family: "Source Sans Pro";
+  color: #E5E5E5;
+  text-align: center;
+  font-size: 20px;
+  color: #F8C02D;
+}
+
+.news {
+  margin-top: 5%;
+  background-color: #1D1A1B;
+  align-items: center;
+}
+.news hr {
+  color: #F8C02D;
+  width: 90%;
+  border: 5px solid #F8C02D;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.news h1 {
+  color: #F8C02D;
+  text-align: center;
+}
+.news .carousel-item {
+  margin-top: 5%;
+}
+.news .card {
+  margin-top: 5%;
+  display: inline-block;
+  margin-left: 10%;
+}
+.news .btn {
+  margin-top: 5%;
+  margin-left: 45%;
+  background-color: #F8C02D;
+  color: #1D1A1B;
+  border-color: #F8C02D;
+  border-radius: 0%;
+  width: 10%;
+}/*# sourceMappingURL=index.css.map */
