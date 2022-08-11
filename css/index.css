@@ -102,6 +102,7 @@ body {
 .news h1 {
   color: #F8C02D;
   text-align: center;
+  font-weight: bold;
 }
 .news .carousel-item {
   margin-top: 5%;
@@ -129,6 +130,7 @@ body {
   color: #F8C02D;
   text-align: center;
   margin-bottom: 5%;
+  font-weight: bold;
 }
 .nosotros hr {
   color: #F8C02D;
@@ -164,4 +166,31 @@ body {
   width: 20%;
   display: inline;
   margin: 0 auto;
+}
+
+.ingreso {
+  margin-top: 15%;
+}
+.ingreso hr {
+  color: #F8C02D;
+  width: 90%;
+  border: 5px solid #F8C02D;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.ingreso .ingreso-section {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-image: linear-gradient(to right, #F8C02D, transparent);
+  display: flex;
+  justify-content: center;
+}
+.ingreso .ingreso-section .ingreso-section-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
 }/*# sourceMappingURL=index.css.map */
