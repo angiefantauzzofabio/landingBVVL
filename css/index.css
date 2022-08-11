@@ -3,13 +3,15 @@ body {
 }
 
 .background-image {
-  background-image: url("/Users/usuario/proyecto1/assets/background1.png");
+  background-image: url("/Users/usuario/landingBVVL/assets/background1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh; /* responsive height */
+  height: 100vh;
+  position: relative;
+  z-index: 1;
 }
 
 .container-nav {
@@ -117,4 +119,49 @@ body {
   border-color: #F8C02D;
   border-radius: 0%;
   width: 10%;
+}
+
+.nosotros {
+  margin-top: 7%;
+  align-items: center;
+}
+.nosotros h1 {
+  color: #F8C02D;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.nosotros hr {
+  color: #F8C02D;
+  width: 90%;
+  border: 5px solid #F8C02D;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.nosotros .title-nosotros {
+  text-align: center;
+  color: #F8C02D;
+}
+.nosotros .nosotros-logo {
+  margin-top: 5%;
+  display: block;
+  margin: 0 auto;
+}
+.nosotros h5 {
+  margin-top: 10%;
+  text-align: center;
+  color: #F8C02D;
+  margin-bottom: 5%;
+}
+.nosotros .nosotros-buttons {
+  display: flex;
+  justify-content: center;
+}
+.nosotros .btn {
+  border-radius: 0%;
+  border-color: #F8C02D;
+  width: 20%;
+  display: inline;
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
