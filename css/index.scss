@@ -141,7 +141,6 @@ body{
       border-color: $yellow;
       border-radius: 0%;
       width: 10%;
-      
    }
 
 }
@@ -223,9 +222,105 @@ body{
       }
 
    }
-
-   
-
-
 }
+
+.nosotros2{
+   margin-top: 7%;
+   align-items:center;
+
+   h1{
+      color: $yellow;
+      text-align: center;
+      margin-bottom: 5%;
+      font-weight: bold;
+   }
+
+   hr{
+      color: $yellow;
+      width: 90%;
+      border: 5px solid $yellow;
+      position:relative;
+      margin: 0 auto ;
+      margin-top: 5%;
+      margin-bottom: 5%;
+   }
+   h5{
+      margin-top: 5%;
+      text-align: center;
+      color: $yellow;
+      margin-bottom: 5%;
+   }
+   .card{
+      margin-top: 5%;
+      display: inline-block;
+      margin-left: 10%;
+      background-color: $black;
+      border-color: $black;
+      border-radius: none;
+      background-image: linear-gradient(to right, $yellow , transparent);
+   }
+   .card-text{
+      color: $white;
+   }
+   .card-img-top{
+      z-index: -1;
+   }
+
+   .nosotros2-section{
+      margin-top: 10%;
+      margin-bottom: 10%;
+      display: flex;
+      justify-content: center;
+
+      .nosotros2-section-img{
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position:relative;
+         z-index: -1;
+      }
+   }
+
+   .sobre-nosotros-1{
+      display: flex;
+      justify-content: space-between;
+      margin: 15%;
+
+      h6{
+         margin-top: 5%;
+         text-align: center;
+         color: $yellow;
+         margin-bottom: 5%;
+      }
+
+
+   }
+}
+
+.apoyo{
+   margin-top: 7%;
+   align-items:center;
+   justify-content: center;
+
+   h1{
+      color: $yellow;
+      text-align: center;
+      margin-bottom: 5%;
+      font-weight: bold;
+   }
+   .apoyo-img{
+      margin-top: 5%;
+      margin-left: 15%;
+   }
+}
+footer{
+   .footer{
+      background-color: $yellow;
+   }
+}
+
+
+
+
+
 
