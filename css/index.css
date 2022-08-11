@@ -111,6 +111,11 @@ body {
   margin-top: 5%;
   display: inline-block;
   margin-left: 10%;
+  background-color: #1D1A1B;
+  border-color: #1D1A1B;
+}
+.news .card-text {
+  color: #E5E5E5;
 }
 .news .btn {
   margin-top: 5%;
