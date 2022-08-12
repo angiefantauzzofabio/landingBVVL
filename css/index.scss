@@ -289,7 +289,6 @@ body{
    .card-img-top{
       z-index: -1;
    }
-
    .nosotros2-section{
       margin-top: 10%;
       margin-bottom: 10%;
@@ -316,9 +315,8 @@ body{
          margin-bottom: 5%;
          justify-content: left;
       }
-
-
    }
+
 }
 
 .apoyo{
@@ -340,6 +338,7 @@ body{
 footer{
    .footer{
       background-color: $yellow;
+      width: 100%;
    }
 }
 
