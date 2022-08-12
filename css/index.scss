@@ -308,13 +308,13 @@ body{
    .sobre-nosotros-1{
       display: flex;
       justify-content: space-between;
-      margin: 15%;
 
       h6{
          margin-top: 5%;
          text-align: center;
          color: $yellow;
          margin-bottom: 5%;
+         justify-content: left;
       }
 
 
