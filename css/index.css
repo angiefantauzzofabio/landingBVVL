@@ -99,6 +99,8 @@ body {
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  height: 1rem;
+  opacity: 100%;
 }
 .news h1 {
   color: #F8C02D;
@@ -141,6 +143,8 @@ body {
 .nosotros hr {
   color: #F8C02D;
   width: 90%;
+  height: 1rem;
+  opacity: 100%;
   border: 5px solid #F8C02D;
   background-color: #F8C02D;
   position: relative;
@@ -187,6 +191,8 @@ body {
   margin: 0 auto;
   margin-top: 10%;
   margin-bottom: 5%;
+  height: 1rem;
+  opacity: 100%;
 }
 .ingreso .ingreso-section {
   margin-top: 10%;
@@ -241,6 +247,8 @@ body {
   margin: 0 auto;
   margin-top: 5%;
   margin-bottom: 5%;
+  height: 1rem;
+  opacity: 100%;
 }
 .nosotros2 h5 {
   margin-top: 5%;
@@ -279,13 +287,13 @@ body {
 .nosotros2 .sobre-nosotros-1 {
   display: flex;
   justify-content: space-between;
-  margin: 15%;
 }
 .nosotros2 .sobre-nosotros-1 h6 {
   margin-top: 5%;
   text-align: center;
   color: #F8C02D;
   margin-bottom: 5%;
+  justify-content: left;
 }
 
 .apoyo {
@@ -306,4 +314,5 @@ body {
 
 footer .footer {
   background-color: #F8C02D;
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */
